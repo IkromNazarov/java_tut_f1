@@ -15,6 +15,7 @@ public class addController {
         int i = Integer.parseInt(request.getParameter("t1"));
         int j = Integer.parseInt(request.getParameter("t2"));
         int k = i+j;
+        int h = 900;
 
         ModelAndView mv = new ModelAndView();
         mv.setViewName("display.jsp");
